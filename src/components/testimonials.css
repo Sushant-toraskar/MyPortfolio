@@ -1,0 +1,73 @@
+.test-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 5, 5);
+    height: 100vh;
+   width: 100%;
+   
+}
+.test-container>i{
+    color: rgb(79, 80, 82);
+    font-size: 50px;
+}
+.text{
+    color: aliceblue;
+}
+.Main-title{
+    font-size: 30px;
+}
+.test-content-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.responce-container{
+    width: 40%;
+    padding: 20px;
+    background-color: rgb(90, 84, 84);
+    font-size: 20px;
+    border-color: aliceblue;
+}
+.responce-container>i{
+    font-size: 40px;
+}
+.lower-container-test{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* text-align: end; */
+    /* background-color: rgb(199, 165, 231); */
+}
+.inner-lower-container{
+    display: flex;
+    flex-direction: row;
+}
+.lower-image-out{
+    height: 80px;
+    width: 80px;
+}
+.lower-image{
+    background-image: url('../images/customer.png');
+    height: 80%;
+    width: 80%;
+    background-size:cover;
+    border-radius: 50%;
+}
+.client-name{
+    color: white;
+    font-size: 25px;
+}
+.company-name{
+    color: rgb(46, 43, 43);
+    font-size: 20px;
+}
+.icon-size{
+    font-size: 20px;
+}
+.lower-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
